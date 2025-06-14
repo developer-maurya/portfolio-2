@@ -1,0 +1,124 @@
+  .circular-progress {
+      animation: rotate 3s linear infinite;
+    }
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+/* -----------------------footer----------------- */
+ .contact-header {
+      background-color: #fff;
+      color: #000;
+      padding: 60px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+
+    .contact-header h1 {
+      font-size: 36px;
+      font-weight: 600;
+      margin: 0;
+      border-bottom: 3px solid #bada55;
+      padding-bottom: 5px;
+    }
+
+    .contact-header .cta {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    .arrow-btn {
+      background-color: #f5f600;
+      color: black;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #C4E1E6;
+      padding: 40px 20px;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .footer-column {
+      flex: 1 1 220px;
+      margin: 20px 10px;
+    }
+
+    .footer-column h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .footer-column a, .footer-column p {
+      color: #070707;
+      font-size: 14px;
+      text-decoration: none;
+      line-height: 1.6;
+    }
+
+    .footer-column a:hover {
+      color: #080808;
+      text-decoration: underline;
+    }
+
+    .social-icons i {
+      font-size: 18px;
+      margin-right: 12px;
+      color: #0c0c0c;
+      transition: color 0.3s;
+    }
+
+    .social-icons i:hover {
+      color: #080808;
+    }
+
+    @media (max-width: 768px) {
+      .contact-header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .contact-header h1 {
+        margin-top: 20px;
+      }
+
+      .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .footer-column {
+        margin: 20px 0;
+      }
+    }
+    .thank{
+      width: auto;
+     height: 100px;
+     background-color: #007bff;
+    }
+    #text-c{
+      color: #000;
+    }

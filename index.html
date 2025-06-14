@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chitranjan Kumar | Portfolio</title>
+   <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="./index.js"></script>
+  
+</head>
+<!-- <body class="bg-[#2b3628] text-white font-[Poppins]"> -->
+  <body class=" bg-gray-900 text-white font-[Poppins]"></body>
+
+  <!-- Navbar -->
+  <nav class="bg-sky-100 shadow-md sticky top-0 z-50">
+  <div class="flex items-center justify-between px-4 md:px-10 h-16">
+    <!-- Logo -->
+    <div class="text-2xl font-bold text-cyan-400 flex items-center gap-2 h-full">
+      <img src="./image/logo.png" alt="Logo" class="h-full w-auto object-contain">
+      <span></span>
+    </div>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex gap-6 text-black text-lg font-medium">
+      <a href="#" class="hover:text-yellow-400">Home</a>
+      <a href="#about" class="hover:text-yellow-400">About</a>
+      <a href="#project" class="hover:text-yellow-400">Project</a>
+      <a href="./image/CHITRANJAN KUMAR.pdf" class="hover:text-yellow-400"target="_blank">Resume</a>
+      <a href="#contacts"  class="hover:text-yellow-400">Contact</a>
+    </div>
+
+    <!-- Hamburger -->
+    <div class="md:hidden">
+      <button id="menu-btn" class="focus:outline-none text-black">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 space-y-2 text-right text-lg bg-sky-100 text-black">
+    <a href="#" class="block hover:text-yellow-400">Home</a>
+    <a href="#about" class="block hover:text-yellow-400">About</a>
+    <a href="#project" class="block hover:text-yellow-400">Project</a>
+    <a href="./image/CHITRANJAN KUMAR.pdf" class="block hover:text-yellow-400">Resume</a>
+    <a href="#contacts"  class="block hover:text-yellow-400">Contact</a>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col-reverse lg:flex-row items-center justify-between px-4 md:px-10 py-16 gap-10">
+    <!-- Text Content -->
+    <div class="max-w-xl text-center lg:text-left ml-20">
+      <p class="text-xl">Hi, I'm</p>
+      <h1 class="text-4xl md:text-5xl font-bold text-yellow-400">Chitranjan Kumar <span class="text-white">from</span></h1>
+      <h2 class="text-4xl md:text-5xl font-bold text-white mt-1">Noida</h2>
+      <p class="mt-2 text-xl">And I'm <span class="text-yellow-400" id="typing"></span></p><br>
+       <div class="flex space-x-6 text-4xl text-cyan-600">
+    <a href="https://www.instagram.com/chitranjanmaurya123/" target="_blank"
+       class="hover:text-pink-500 transition duration-300 p-2 rounded-full hover:bg-pink-100">
+      <i class="fa-brands fa-square-instagram"></i>
+    </a>
+
+    <a href="https://github.com/developer-maurya" target="_blank"
+       class="hover:text-gray-800 transition duration-300 p-2 rounded-full hover:bg-pink-100">
+      <i class="fa-brands fa-square-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/chitranjan-kumar-911219339/" target="_blank"
+       class="hover:text-blue-700 transition duration-300 p-2 rounded-full hover:bg-pink-100">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+     <a href="https://www.facebook.com/" target="_blank"
+       class="hover:text-blue-600 transition duration-300 p-2 rounded-full hover:bg-pink-100">
+      <i class="fa-brands fa-square-facebook"></i>
+    </a>
+  </div>
+
+      <div class="flex flex-wrap justify-center lg:justify-start gap-20 mt-6">
+        <button class="bg-yellow-200 text-black px-6 py-2 rounded-md border border-red-400 hover:bg-yellow-300">Hire Me</button>
+        <button class="bg-yellow-200 text-black px-6 py-2 rounded-md border border-red-400 hover:bg-yellow-300">Download CV</button>
+      </div><br>
+
+      
+    </div>
+    
+
+ 
+    <div>
+      <img src="./image/ME-removebg-preview__1_-removebg-preview.png" alt="Chitranjan Kumar" class="w-64 md:w-80 rounded-2xl rounded-xl shadow-[0_0_30px_rgba(255,255,255,0.4)]" />
+    </div>
+  </section>
+  <!-- About Section -->
+<section id="about" class="bg-gray-900 text-white py-16 px-4 md:px-10">
+  <h1 class="text-3xl md:text-4xl font-bold text-center text-yellow-400 mb-12">About Me</h1>
+  
+  <div class="flex flex-col lg:flex-row items-center gap-10">
+    <!-- Image -->
+    <div class="flex-1">
+      <img src="./image/png 2.png" alt="About Image" class="w-full max-w-md mx-auto rounded-xl shadow-[0_0_30px_rgba(255,255,255,0.4)]" />
+    </div>
+
+    <!-- Text Content -->
+    <div class="flex-1 space-y-6">
+      <p class="text-lg leading-relaxed text-justify">
+        I am based in Noida, Sector 44. I completed my schooling from the Bihar School Examination Board in Patna and earned a BCA degree from Veer Kunwar Singh University. Currently, I am pursuing a Full Stack Web Development course. <br><br>
+        I have worked with frontend technologies like HTML, CSS, JavaScript, and React, as well as backend tools like JavaScript and Node.js. I enjoy building responsive, user-friendly web applications and constantly improving my skills. <br><br>
+        I am looking for a Full Stack Web Development role where I can apply my knowledge, work on exciting projects, and continue growing in the field.
+      </p>
+
+      <!-- Tab Links -->
+      <div class="flex gap-6 text-yellow-400 font-semibold cursor-pointer">
+        <p class="tab-link active-link" onclick="opentab('skill')">Skills</p>
+        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+        <p class="tab-link" onclick="opentab('education')">Education</p>
+      </div>
+
+      <!-- Tab Contents -->
+      <div class="tab-contents active-tab" id="skill">
+        <ul class="list-disc pl-5 space-y-2">
+          <li><span class="font-bold text-yellow-400">Front-End :</span> HTML5 , CSS , JavaScript(ES6+) , React</li>
+          <li><span class="font-bold text-yellow-400">Framework :</span> Bootstrap , Tailwind</li>
+          <li><span class="font-bold text-yellow-400">Tool :</span> Git</li>
+        </ul>
+      </div>
+
+      <div class="tab-contents hidden" id="experience">
+        <ul class="list-disc pl-5 space-y-4">
+          <li><span class="font-bold text-yellow-400">2024 - Current :</span> Full Stack Web Development - Training (Ongoing)<br><i>CETPA Infotech Pvt. Ltd.</i></li>
+          <li><span class="font-bold text-yellow-400">12/2024 - Current :</span> Frontend Developer Intern (Ongoing)<br><i>CETPA Infotech Pvt. Ltd.</i></li>
+        </ul>
+      </div>
+
+      <div class="tab-contents hidden" id="education">
+        <ul class="list-disc pl-5 space-y-4">
+          <li><span class="font-bold text-yellow-400">2024 :</span> Full Stack Web Design</li>
+          <li><span class="font-bold text-yellow-400">2024 :</span> BCA from Veer Kunwar Singh University</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- -----------------------------skill----------------------------- -->
+ <section class="ml-20">
+   <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      
+      <!-- Technical Skills -->
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-center lg:text-left">Technical Skills</h2>
+        <div class="space-y-6">
+          <!-- Skill Item -->
+          <div>
+            <div class="flex justify-between text-sm sm:text-base mb-1">
+              <span>HTML</span>
+              <span>90%</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-3">
+              <div class="bg-cyan-400 h-3 rounded-full" style="width: 90%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm sm:text-base mb-1">
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-3">
+              <div class="bg-cyan-400 h-3 rounded-full" style="width: 90%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm sm:text-base mb-1">
+              <span>JavaScript</span>
+              <span>65%</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-3">
+              <div class="bg-cyan-400 h-3 rounded-full" style="width: 65%"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between text-sm sm:text-base mb-1">
+              <span>React</span>
+              <span>75%</span>
+            </div>
+            <div class="w-full bg-gray-800 rounded-full h-3">
+              <div class="bg-cyan-400 h-3 rounded-full" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Skills -->
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-center lg:text-left">Professional Skills</h2>
+        <div class="grid grid-cols-2 gap-6 sm:gap-10 place-items-center">
+          
+          <!-- Skill Circle -->
+          <div class="flex flex-col items-center">
+            <svg class="w-20 sm:w-24 h-20 sm:h-24 circular-progress text-cyan-400" viewBox="0 0 36 36">
+              <path class="stroke-current" stroke-width="3" stroke-dasharray="90,100"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" />
+            </svg>
+            <p class="mt-2 text-center text-sm font-semibold text-purple-700">Team Work</p>
+            <p class="text-cyan-600 font-medium text-sm">90%</p>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <svg class="w-20 sm:w-24 h-20 sm:h-24 circular-progress text-cyan-400" viewBox="0 0 36 36">
+              <path class="stroke-current" stroke-width="3" stroke-dasharray="80,100"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" />
+            </svg>
+            <p class="mt-2 text-center text-sm font-semibold text-purple-700">Creativity</p>
+            <p class="text-cyan-600 font-medium text-sm">80%</p>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <svg class="w-20 sm:w-24 h-20 sm:h-24 circular-progress text-cyan-400" viewBox="0 0 36 36">
+              <path class="stroke-current" stroke-width="3" stroke-dasharray="60,100"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" />
+            </svg>
+            <p class="mt-2 text-center text-sm font-semibold text-purple-700">Project Management</p>
+            <p class="text-cyan-600 font-medium text-sm">60%</p>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <svg class="w-20 sm:w-24 h-20 sm:h-24 circular-progress text-cyan-400" viewBox="0 0 36 36">
+              <path class="stroke-current" stroke-width="3" stroke-dasharray="70,100"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" />
+            </svg>
+            <p class="mt-2 text-center text-sm font-semibold text-purple-700">Communication</p>
+            <p class="text-cyan-600 font-medium text-sm">70%</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+<!-- ------------------------------------PROJECT----------------------------- -->
+<section id="project" class="py-16 bg-gray-900 text-white">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h1 class="text-4xl font-bold mb-6">My <span class="text-yellow-500">Project</span></h1>
+    <p class="mb-10 text-gray-300">Here are some of my best projects. Check them out!</p>
+
+    <!-- Tabs -->
+    <div class="flex flex-wrap justify-center gap-4 mb-8">
+      <button class="work-item active-link1 px-4 py-2 bg-yellow-500 text-black rounded-md font-semibold" onclick="opentab1(event, 'All Project')">All Project</button>
+      <button class="work-item px-4 py-2 bg-gray-700 hover:bg-yellow-500 rounded-md font-semibold" onclick="opentab1(event, 'Select Project')">Select Project</button>
+      <button class="work-item px-4 py-2 bg-gray-700 hover:bg-yellow-500 rounded-md font-semibold" onclick="opentab1(event, 'fullstack')">Html Css Js</button>
+      <button class="work-item px-4 py-2 bg-gray-700 hover:bg-yellow-500 rounded-md font-semibold" onclick="opentab1(event, 'react.js')">React.Js</button>
+       
+    </div>
+<!-- ------------------------------------Select Project-------------------- -->
+    
+    <div id="All Project" class="all-card active-tab1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+      
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg bg-cyan-500 shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900 ">
+        <img src="./image/Screenshot 2025-06-07 225702.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Web PPT</h3>
+        <p class="text-gray-400 mb-4">This is a web ppt made from HTML.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/Project1" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/Project1/0a18fc2afaff62d458a4f0cb057bce3657806ac8/index.html" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+
+       <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img3.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Task List</h3>
+        <p class="text-gray-400 mb-4">A task list is a web page feature that is structured using HTML and is designed and laid out in a way</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/CSS-Project" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/CSS-Project/f3668435c77acc3419ba59da8361467f9340aab8/index.html" target="_blank" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+       <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img2.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Independence  Animation</h3>
+        <p class="text-gray-400 mb-4">Created an animated highway and city scene with a moving car and rotating wheels using CSS.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/CSS-A5/tree/main" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/CSS-A5/35ec44aeee3010a839684985e34d944f53fa1c16/index2.html" target="_blank" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/Screenshot (45).png" alt="GruGo" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Alarm Clock</h3>
+        <p class="text-gray-400 mb-4">Built a JavaScript alarm clock with real-time display and dynamic day-phase transitions.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/Alarm-clock" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://malarmclock.netlify.app/" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded" target="_blank">Live</a>
+        </div>
+      </div>
+
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img1.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Traveling</h3>
+        <p class="text-gray-400 mb-4">This is an informational web page that provides a brief overview of notable places in the Sahara Desert.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/CSS-A6/tree/main" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/CSS-A6/ae7e25073dfb952facb7a11667d620a8142f8bca/index.html" target="_blank" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img6.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">To Do List</h3>
+        <p class="text-gray-400 mb-4">This is a To-Do List app where you can add new tasks and delete them with a single click.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/CSS-A6/tree/main" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/CSS-A6/ae7e25073dfb952facb7a11667d620a8142f8bca/index.html" target="_blank" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+       
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img5.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">FoodJoint</h3>
+        <p class="text-gray-400 mb-4">It is online platform to discover restaurants,view menus,and order food for home delivery</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/FoodJoint" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/FoodJoint/0de6d7a1fc99229eb67abf55f23606eb6c389288/test/index.html" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded" target="_blank">Live</a>
+        </div>
+      </div>
+
+     
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img4.png" alt="GruGo" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">GruGo - Food Delivery</h3>
+        <p class="text-gray-400 mb-4">GruGo is a food delivery app that lets users order food online, and enjoy fast doorstep delivery</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/Chitranjan2002/GruGo" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="#" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/Screenshot (45).png" alt="GruGo" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Alarm Clock</h3>
+        <p class="text-gray-400 mb-4">Built a JavaScript alarm clock with real-time display and dynamic day-phase transitions.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/Alarm-clock" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://malarmclock.netlify.app/" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded" target="_blank">Live</a>
+        </div>
+      </div>
+
+    </div>
+    <!-- ---------------------------------Select Project----------------------------- -->
+     <div id="Select Project" class="all-card hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+       <div class="slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img5.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">FoodJoint</h3>
+        <p class="text-gray-400 mb-4">It is online platform to discover restaurants,view menus,and order food for home delivery</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/FoodJoint" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/FoodJoint/0de6d7a1fc99229eb67abf55f23606eb6c389288/test/index.html" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded" target="_blank">Live</a>
+        </div>
+      </div>
+
+     
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img4.png" alt="GruGo" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">GruGo - Food Delivery</h3>
+        <p class="text-gray-400 mb-4">GruGo is a food delivery app that lets users order food online, and enjoy fast doorstep delivery</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/Chitranjan2002/GruGo" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="#" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/Screenshot (45).png" alt="GruGo" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Alarm Clock</h3>
+        <p class="text-gray-400 mb-4">Built a JavaScript alarm clock with real-time display and dynamic day-phase transitions.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/Alarm-clock" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://malarmclock.netlify.app/" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded" target="_blank">Live</a>
+        </div>
+      </div>
+
+     
+    </div>
+
+  <!-- ---------------------------------html,css,Js----------------------------------- -->
+    <div id="fullstack" class="all-card hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/Screenshot 2025-06-07 225702.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Web PPT</h3>
+        <p class="text-gray-400 mb-4">This is a web ppt made from HTML.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/Project1" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/Project1/0a18fc2afaff62d458a4f0cb057bce3657806ac8/index.html" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+
+       <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img3.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Task List</h3>
+        <p class="text-gray-400 mb-4">A task list is a web page feature that is structured using HTML and is designed and laid out in a way</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/CSS-Project" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/CSS-Project/f3668435c77acc3419ba59da8361467f9340aab8/index.html" target="_blank" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+       <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img2.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Independence  Animation</h3>
+        <p class="text-gray-400 mb-4">Created an animated highway and city scene with a moving car and rotating wheels using CSS.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/CSS-A5/tree/main" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/CSS-A5/35ec44aeee3010a839684985e34d944f53fa1c16/index2.html" target="_blank" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/Screenshot (45).png" alt="GruGo" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Alarm Clock</h3>
+        <p class="text-gray-400 mb-4">Built a JavaScript alarm clock with real-time display and dynamic day-phase transitions.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/Alarm-clock" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://malarmclock.netlify.app/" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded" target="_blank">Live</a>
+        </div>
+      </div>
+
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img1.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">Traveling</h3>
+        <p class="text-gray-400 mb-4">This is an informational web page that provides a brief overview of notable places in the Sahara Desert.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/CSS-A6/tree/main" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/CSS-A6/ae7e25073dfb952facb7a11667d620a8142f8bca/index.html" target="_blank" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img6.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">To Do List</h3>
+        <p class="text-gray-400 mb-4">This is a To-Do List app where you can add new tasks and delete them with a single click.</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/CSS-A6/tree/main" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/CSS-A6/ae7e25073dfb952facb7a11667d620a8142f8bca/index.html" target="_blank" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+
+
+
+    </div>
+    <!-- ------------------------------------------------------------------react.js--------------------------------- -->
+
+    <div id="react.js" class="all-card hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img5.png" alt="E-commerce" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">FoodJoint</h3>
+        <p class="text-gray-400 mb-4">It is online platform to discover restaurants,view menus,and order food for home delivery</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/developer-maurya/FoodJoint" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="https://rawcdn.githack.com/developer-maurya/FoodJoint/0de6d7a1fc99229eb67abf55f23606eb6c389288/test/index.html" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded" target="_blank">Live</a>
+        </div>
+      </div>
+
+     
+      <div class="bg-slate-900 p-5 rounded-xl shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 hover:text-slate-900">
+        <img src="./image/img4.png" alt="GruGo" class="w-full h-40 object-cover rounded-md mb-4">
+        <h3 class="text-xl font-bold mb-2">GruGo - Food Delivery</h3>
+        <p class="text-gray-400 mb-4">GruGo is a food delivery app that lets users order food online, and enjoy fast doorstep delivery</p>
+        <div class="flex justify-between">
+          <a href="https://github.com/Chitranjan2002/GruGo" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">GitHub</a>
+          <a href="#" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">Live</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<!-- -----------------------------------------Contact------------------------------------ -->
+ <section class="bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-20" id="contacts">
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl sm:text-4xl font-bold text-center mb-10">Contact</h1>
+    <form class="space-y-6 bg-gray-800 p-6 rounded-lg shadow-md">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <input type="text" name="name" placeholder="Name" required class="p-3 rounded bg-gray-700 text-white focus:outline-none">
+        <input type="email" name="email" placeholder="Email" required class="p-3 rounded bg-gray-700 text-white focus:outline-none">
+      </div>
+      <input type="text" name="subject" placeholder="Subject" required class="w-full p-3 rounded bg-gray-700 text-white focus:outline-none">
+      <textarea name="message" rows="6" placeholder="Message" class="w-full p-3 rounded bg-gray-700 text-white focus:outline-none"></textarea>
+      <button type="submit" class="w-full sm:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded text-white font-semibold">Send Message</button>
+    </form>
+  </div>
+</section>
+<!-- --------------------------------------------Footer-------------------- -->
+ <div class="thanks">
+  <div class="contact-header">
+    
+    <h1>Contact us</h1>
+   
+  </div>
+  <footer>
+    <div class="footer-container">
+
+      <!-- Column 1 -->
+      <div class="footer-column">
+        <h3 id="text-c">Thanks for visiting my portfio®</h3>
+      </div>
+
+      <!-- Column 2: London -->
+      <div class="footer-column">
+        <h3 id="text-c">ADDRESS</h3>
+
+        <p>Noida<br>
+        Sector-44<br>
+        Uttar Pradesh</p>
+        <a href="https://www.google.com/maps/@28.5596354,77.3409781,16z?entry=ttu&g_ep=EgoyMDI1MDYwNC4wIKXMDSoASAFQAw%3D%3D"><i class="fa-solid fa-location-dot" target="_blank" ></i> SEE ON MAP ↗</a>
+      </div>
+
+      <!-- Column 3: Buenos Aires -->
+      <div  class="footer-column">
+        <h3 id="text-c">CONTACT</h3>
+        <a href="chitranjan75075@gmail.com"><i class="fa-solid fa-envelope"></i> chitranjan75075@gmail.com</a><br>
+        <a href="#"><i class="fa-solid fa-phone"></i> 9905250848</a><br>
+       
+        
+      </div>
+
+      <!-- Column 4: Newsletter & Social -->
+      <div class="footer-column">
+        <h3 id="text-c">You can review my Linkedln and GitHub profiles before making a hiring decision</h3>
+               <h3 style="margin-top: 20px;" id="text-c">FOLLOW US</h3>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/chitranjanmaurya123/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://github.com/developer-maurya" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+          <a href="https://www.linkedin.com/in/chitranjan-kumar-911219339/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      
+    </div>
+  </footer></div>
+
+
+  <!-- Typed.js Script -->
+  <script>
+    var typed = new Typed("#typing", {
+      strings: ["Web Developer", "Frontend Developer", "MERN Stack Learner ","UX/UI Designer","Graphics Designer"],
+      typeSpeed: 60,
+      backSpeed: 40,
+      loop: true
+    });
+
+    // Toggle mobile menu
+    document.getElementById('menu-btn').addEventListener('click', function () {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
