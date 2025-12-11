@@ -36,3 +36,6 @@ function opentab1(event, tabName) {
     document.getElementById(tabName).classList.remove('hidden');
     event.currentTarget.classList.add('active-link1', 'bg-yellow-500', 'text-black');
   }
+
+
+
